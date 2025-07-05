@@ -40,15 +40,14 @@ With voice output 🎤 and NO internet or API required.
 ## 📂 Project Structure
 
 smart_summarize_pro/
-├── smart_ui.py # Main app (Streamlit UI)
-├── summarizer.py # TF-IDF + TextRank logic
-├── audio_transcriber.py # Whisper model (offline)
-├── pdf_summarizer.py # Extract text from PDFs
-├── yt_summarizer.py # Download & trim YouTube audio
-├── tts_speaker.py # Speak the summary aloud
-├── requirements.txt # All dependencies
-└── README.md # You’re reading it
-
+├── smart_ui.py              # 🎛️ Streamlit user interface (main app)
+├── summarizer.py            # 🧠 Extractive summarization using TF-IDF + TextRank
+├── audio_transcriber.py     # 🎧 Transcribe audio using Whisper
+├── pdf_summarizer.py        # 📄 Extract text from PDF files
+├── yt_summarizer.py         # 📽️ Download and trim YouTube audio
+├── tts_speaker.py           # 🔊 Convert summary to speech (TTS)
+├── requirements.txt         # 📦 Python dependencies
+└── README.md                # 📘 Project documentation
 
 ---
 
